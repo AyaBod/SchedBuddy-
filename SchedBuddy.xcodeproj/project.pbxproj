@@ -16,6 +16,7 @@
 		5B324BA72AD036DC00AED480 /* SchedBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B324BA62AD036DC00AED480 /* SchedBuddyTests.swift */; };
 		5B324BB12AD036DC00AED480 /* SchedBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B324BB02AD036DC00AED480 /* SchedBuddyUITests.swift */; };
 		5B324BB32AD036DC00AED480 /* SchedBuddyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B324BB22AD036DC00AED480 /* SchedBuddyUITestsLaunchTests.swift */; };
+		5B324BFC2AD046C600AED480 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5B324BFB2AD046C600AED480 /* readme.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5B324BAC2AD036DC00AED480 /* SchedBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchedBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B324BB02AD036DC00AED480 /* SchedBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedBuddyUITests.swift; sourceTree = "<group>"; };
 		5B324BB22AD036DC00AED480 /* SchedBuddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedBuddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5B324BFB2AD046C600AED480 /* readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		5B324B832AD036D000AED480 = {
 			isa = PBXGroup;
 			children = (
+				5B324BFB2AD046C600AED480 /* readme.txt */,
 				5B324B8E2AD036D000AED480 /* SchedBuddy */,
 				5B324BA52AD036DC00AED480 /* SchedBuddyTests */,
 				5B324BAF2AD036DC00AED480 /* SchedBuddyUITests */,
@@ -233,6 +236,7 @@
 			files = (
 				5B324B9C2AD036DB00AED480 /* LaunchScreen.storyboard in Resources */,
 				5B324B992AD036DB00AED480 /* Assets.xcassets in Resources */,
+				5B324BFC2AD046C600AED480 /* readme.txt in Resources */,
 				5B324B972AD036D000AED480 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
