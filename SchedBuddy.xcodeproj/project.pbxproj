@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B06C8222AE0962B0095BAA8 /* CourseQuizVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B06C8212AE0962B0095BAA8 /* CourseQuizVC.swift */; };
 		5B324B902AD036D000AED480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B324B8F2AD036D000AED480 /* AppDelegate.swift */; };
 		5B324B922AD036D000AED480 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B324B912AD036D000AED480 /* SceneDelegate.swift */; };
-		5B324B942AD036D000AED480 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B324B932AD036D000AED480 /* ViewController.swift */; };
+		5B324B942AD036D000AED480 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B324B932AD036D000AED480 /* HomeVC.swift */; };
 		5B324B972AD036D000AED480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B324B952AD036D000AED480 /* Main.storyboard */; };
 		5B324B992AD036DB00AED480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B324B982AD036DB00AED480 /* Assets.xcassets */; };
 		5B324B9C2AD036DB00AED480 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B324B9A2AD036DB00AED480 /* LaunchScreen.storyboard */; };
@@ -17,6 +18,9 @@
 		5B324BB12AD036DC00AED480 /* SchedBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B324BB02AD036DC00AED480 /* SchedBuddyUITests.swift */; };
 		5B324BB32AD036DC00AED480 /* SchedBuddyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B324BB22AD036DC00AED480 /* SchedBuddyUITestsLaunchTests.swift */; };
 		5B324BFC2AD046C600AED480 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5B324BFB2AD046C600AED480 /* readme.txt */; };
+		5B324C092AD58B9200AED480 /* CourseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B324C082AD58B9200AED480 /* CourseVC.swift */; };
+		5B324C0B2AD58C0000AED480 /* CareerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B324C0A2AD58C0000AED480 /* CareerVC.swift */; };
+		5B39003E2AEA978600E63374 /* CareerQuizVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B39003D2AEA978600E63374 /* CareerQuizVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B06C8212AE0962B0095BAA8 /* CourseQuizVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseQuizVC.swift; sourceTree = "<group>"; };
 		5B324B8C2AD036D000AED480 /* SchedBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchedBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B324B8F2AD036D000AED480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B324B912AD036D000AED480 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5B324B932AD036D000AED480 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B324B932AD036D000AED480 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		5B324B962AD036D000AED480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B324B982AD036DB00AED480 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B324B9B2AD036DB00AED480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,9 @@
 		5B324BB02AD036DC00AED480 /* SchedBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedBuddyUITests.swift; sourceTree = "<group>"; };
 		5B324BB22AD036DC00AED480 /* SchedBuddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedBuddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5B324BFB2AD046C600AED480 /* readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		5B324C082AD58B9200AED480 /* CourseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseVC.swift; sourceTree = "<group>"; };
+		5B324C0A2AD58C0000AED480 /* CareerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerVC.swift; sourceTree = "<group>"; };
+		5B39003D2AEA978600E63374 /* CareerQuizVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerQuizVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +112,15 @@
 			children = (
 				5B324B8F2AD036D000AED480 /* AppDelegate.swift */,
 				5B324B912AD036D000AED480 /* SceneDelegate.swift */,
-				5B324B932AD036D000AED480 /* ViewController.swift */,
+				5B324B932AD036D000AED480 /* HomeVC.swift */,
 				5B324B952AD036D000AED480 /* Main.storyboard */,
 				5B324B982AD036DB00AED480 /* Assets.xcassets */,
 				5B324B9A2AD036DB00AED480 /* LaunchScreen.storyboard */,
 				5B324B9D2AD036DB00AED480 /* Info.plist */,
+				5B324C082AD58B9200AED480 /* CourseVC.swift */,
+				5B324C0A2AD58C0000AED480 /* CareerVC.swift */,
+				5B06C8212AE0962B0095BAA8 /* CourseQuizVC.swift */,
+				5B39003D2AEA978600E63374 /* CareerQuizVC.swift */,
 			);
 			path = SchedBuddy;
 			sourceTree = "<group>";
@@ -262,9 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B324B942AD036D000AED480 /* ViewController.swift in Sources */,
+				5B324B942AD036D000AED480 /* HomeVC.swift in Sources */,
 				5B324B902AD036D000AED480 /* AppDelegate.swift in Sources */,
 				5B324B922AD036D000AED480 /* SceneDelegate.swift in Sources */,
+				5B39003E2AEA978600E63374 /* CareerQuizVC.swift in Sources */,
+				5B324C092AD58B9200AED480 /* CourseVC.swift in Sources */,
+				5B06C8222AE0962B0095BAA8 /* CourseQuizVC.swift in Sources */,
+				5B324C0B2AD58C0000AED480 /* CareerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +465,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,6 +494,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
