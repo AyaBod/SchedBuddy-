@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="R7O-PG-Dve">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -78,6 +77,10 @@
                                     <segue destination="95t-dW-rZq" kind="push" id="sjP-mB-HOC"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="tiger" translatesAutoresizingMaskIntoConstraints="NO" id="fPn-HQ-fPS">
+                                <rect key="frame" x="136" y="666" width="114" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -103,7 +106,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1095" y="1491"/>
+            <point key="canvasLocation" x="-1095.3846153846152" y="1490.7582938388625"/>
         </scene>
         <!--Career QuizVC-->
         <scene sceneID="pFh-Cr-w6I">
@@ -823,6 +826,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="AP World History">
                                     <color key="baseBackgroundColor" red="0.9289659858" green="0.2194095254" blue="0.1988048851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="c1g-CS-7li" kind="modal" id="1BS-XO-gH7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9tZ-sc-G1S">
                                 <rect key="frame" x="61" y="221" width="263" height="48"/>
@@ -950,9 +956,9 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tech Theatre" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z6o-Rv-tpT">
-                                        <rect key="frame" x="130" y="63" width="106" height="22"/>
+                                        <rect key="frame" x="122" y="63" width="123" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </label>
                                 </subviews>
@@ -967,13 +973,14 @@
                             <constraint firstItem="Yfi-43-AH7" firstAttribute="top" secondItem="dPD-X4-NMf" secondAttribute="top" id="OtG-eg-Eqb"/>
                             <constraint firstItem="Yfi-43-AH7" firstAttribute="leading" secondItem="EBh-yE-Vih" secondAttribute="leading" id="Spi-lR-N4i"/>
                             <constraint firstItem="EBh-yE-Vih" firstAttribute="bottom" secondItem="Yfi-43-AH7" secondAttribute="bottom" id="cp6-G8-JbO"/>
+                            <constraint firstAttribute="bottom" secondItem="Yfi-43-AH7" secondAttribute="bottom" id="rBS-L9-daL"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="G7q-w5-WJp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RmZ-PT-P6b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-66" y="2975"/>
+            <point key="canvasLocation" x="361.53846153846155" y="3020.6161137440758"/>
         </scene>
         <!--Careers-->
         <scene sceneID="Ghj-Ma-svF">
@@ -1109,6 +1116,53 @@
             </objects>
             <point key="canvasLocation" x="951" y="741"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="3Se-aA-afA">
+            <objects>
+                <viewController id="c1g-CS-7li" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EB0-Zh-R5Z">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nnc-W6-H4J">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="AP World History" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vxw-k5-C4E">
+                                        <rect key="frame" x="110" y="63" width="147" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="38" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="akF-tz-YQ7">
+                                        <rect key="frame" x="10" y="140" width="370" height="587"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <mutableString key="text">AP WORLD HISTORY MODERN (9, 10, 11, 12) This course is designed to be the equivalent of a two-semester introductory college or university world history course. According to the College Board, AP World History Modern students “investigate significant events, individuals, developments, and processes in historical periods from approximately 1200 CE to the present. Students develop and use the same skills, practices, and methods employed by historians: analyzing primary and secondary sources; making historical comparisons; utilizing reasoning about contextualization, causation, and continuity and change over time; and developing historical arguments. The course provides five themes that students explore throughout the course in order to make connections among historical developments in different times and places: interactions between humans and the environment; development and interaction of cultures; state building, expansion, and conflict; creation, expansion, and interaction of economic systems; and development &amp; transformation of social structures. Summer reading information will be distributed in the spring. Recommendation: 3.4 GPA. Exam registration will take place in September &amp; October. Standard AP fees apply.
+</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.9289659858" green="0.2194095254" blue="0.1988048851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Iiv-14-ooH"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Nnc-W6-H4J" firstAttribute="top" secondItem="EB0-Zh-R5Z" secondAttribute="top" id="dCi-FM-278"/>
+                            <constraint firstAttribute="bottom" secondItem="Nnc-W6-H4J" secondAttribute="bottom" id="lw0-ID-DfH"/>
+                            <constraint firstItem="Iiv-14-ooH" firstAttribute="trailing" secondItem="Nnc-W6-H4J" secondAttribute="trailing" id="s5u-G5-tSt"/>
+                            <constraint firstItem="Nnc-W6-H4J" firstAttribute="leading" secondItem="Iiv-14-ooH" secondAttribute="leading" id="sOv-Dx-pga"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="FpN-sv-4R4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i1t-UR-XhW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-592" y="3029"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Sched" width="500" height="500"/>
@@ -1117,6 +1171,7 @@
         <image name="house75" width="75" height="75"/>
         <image name="softydev" width="300" height="200"/>
         <image name="text" width="563" height="563"/>
+        <image name="tiger" width="400" height="400"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
