@@ -21,6 +21,12 @@
 		5B324C092AD58B9200AED480 /* CourseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B324C082AD58B9200AED480 /* CourseVC.swift */; };
 		5B324C0B2AD58C0000AED480 /* CareerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B324C0A2AD58C0000AED480 /* CareerVC.swift */; };
 		5B39003E2AEA978600E63374 /* CareerQuizVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B39003D2AEA978600E63374 /* CareerQuizVC.swift */; };
+		5B3B982D2B07AC270044EEB4 /* CourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3B982B2B07AC270044EEB4 /* CourseCell.swift */; };
+		5B3B982E2B07AC270044EEB4 /* Courses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3B982C2B07AC270044EEB4 /* Courses.swift */; };
+		5B3B98322B1448730044EEB4 /* CustomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3B98312B1448730044EEB4 /* CustomVC.swift */; };
+		5B3B98342B1455400044EEB4 /* descList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3B98332B1455400044EEB4 /* descList.swift */; };
+		5B6992902B02637E00EA3DCC /* courseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69928F2B02637E00EA3DCC /* courseList.swift */; };
+		5B6992922B0267CB00EA3DCC /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6992912B0267CB00EA3DCC /* SearchVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +65,12 @@
 		5B324C082AD58B9200AED480 /* CourseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseVC.swift; sourceTree = "<group>"; };
 		5B324C0A2AD58C0000AED480 /* CareerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerVC.swift; sourceTree = "<group>"; };
 		5B39003D2AEA978600E63374 /* CareerQuizVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerQuizVC.swift; sourceTree = "<group>"; };
+		5B3B982B2B07AC270044EEB4 /* CourseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CourseCell.swift; path = ../../../Downloads/CourseCell.swift; sourceTree = "<group>"; };
+		5B3B982C2B07AC270044EEB4 /* Courses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Courses.swift; path = ../../../Downloads/Courses.swift; sourceTree = "<group>"; };
+		5B3B98312B1448730044EEB4 /* CustomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVC.swift; sourceTree = "<group>"; };
+		5B3B98332B1455400044EEB4 /* descList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = descList.swift; sourceTree = "<group>"; };
+		5B69928F2B02637E00EA3DCC /* courseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = courseList.swift; sourceTree = "<group>"; };
+		5B6992912B0267CB00EA3DCC /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +133,12 @@
 				5B324C0A2AD58C0000AED480 /* CareerVC.swift */,
 				5B06C8212AE0962B0095BAA8 /* CourseQuizVC.swift */,
 				5B39003D2AEA978600E63374 /* CareerQuizVC.swift */,
+				5B69928F2B02637E00EA3DCC /* courseList.swift */,
+				5B6992912B0267CB00EA3DCC /* SearchVC.swift */,
+				5B3B982C2B07AC270044EEB4 /* Courses.swift */,
+				5B3B982B2B07AC270044EEB4 /* CourseCell.swift */,
+				5B3B98312B1448730044EEB4 /* CustomVC.swift */,
+				5B3B98332B1455400044EEB4 /* descList.swift */,
 			);
 			path = SchedBuddy;
 			sourceTree = "<group>";
@@ -274,11 +292,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B6992902B02637E00EA3DCC /* courseList.swift in Sources */,
 				5B324B942AD036D000AED480 /* HomeVC.swift in Sources */,
 				5B324B902AD036D000AED480 /* AppDelegate.swift in Sources */,
+				5B6992922B0267CB00EA3DCC /* SearchVC.swift in Sources */,
+				5B3B982E2B07AC270044EEB4 /* Courses.swift in Sources */,
+				5B3B982D2B07AC270044EEB4 /* CourseCell.swift in Sources */,
 				5B324B922AD036D000AED480 /* SceneDelegate.swift in Sources */,
 				5B39003E2AEA978600E63374 /* CareerQuizVC.swift in Sources */,
 				5B324C092AD58B9200AED480 /* CourseVC.swift in Sources */,
+				5B3B98322B1448730044EEB4 /* CustomVC.swift in Sources */,
+				5B3B98342B1455400044EEB4 /* descList.swift in Sources */,
 				5B06C8222AE0962B0095BAA8 /* CourseQuizVC.swift in Sources */,
 				5B324C0B2AD58C0000AED480 /* CareerVC.swift in Sources */,
 			);

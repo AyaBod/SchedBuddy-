@@ -23,7 +23,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MgR-MU-1qj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1095" y="742"/>
+            <point key="canvasLocation" x="-1095" y="741"/>
         </scene>
         <!--Courses-->
         <scene sceneID="B70-Lt-lr0">
@@ -902,27 +902,51 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m2U-l6-kKA">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Software Developer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RGo-PO-kH5">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Software Developer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RGo-PO-kH5">
                                         <rect key="frame" x="69" y="317" width="254" height="39"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="rxD-Ap-E4P"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="softydev" translatesAutoresizingMaskIntoConstraints="NO" id="TXV-58-dKi">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="softydev" translatesAutoresizingMaskIntoConstraints="NO" id="TXV-58-dKi">
                                         <rect key="frame" x="45" y="104" width="300" height="200"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="30" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" preferredMaxLayoutWidth="370" translatesAutoresizingMaskIntoConstraints="NO" id="q3J-bg-1wO">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="30" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" preferredMaxLayoutWidth="370" translatesAutoresizingMaskIntoConstraints="NO" id="q3J-bg-1wO">
                                         <rect key="frame" x="21" y="353" width="350" height="400"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="400" id="NLQ-4C-UQj"/>
+                                        </constraints>
                                         <string key="text">A software developer is a professional responsible for designing, creating, and maintaining software applications, websites, and systems. They write code, debug and test software, and collaborate with teams to ensure that the software meets specific requirements and functions correctly. Job availability for software developers is consistently high, with a strong demand for their skills in various industries such as technology, healthcare, finance, and entertainment. The field is expected to continue experiencing substantial growth due to the ongoing digital transformation, and income levels are generally competitive, with variations based on factors like experience, location, and specialization, ranging from entry-level salaries to six-figure incomes for experienced developers.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DY8-xL-ams">
+                                        <rect key="frame" x="0.0" y="765" width="390" height="79"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.9289659858" green="0.2194095254" blue="0.1988048851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="DY8-xL-ams" firstAttribute="top" secondItem="q3J-bg-1wO" secondAttribute="bottom" constant="12" id="06G-fS-qUR"/>
+                                    <constraint firstItem="q3J-bg-1wO" firstAttribute="leading" secondItem="m2U-l6-kKA" secondAttribute="leading" constant="21" id="1Ne-P0-1Y7"/>
+                                    <constraint firstItem="RGo-PO-kH5" firstAttribute="top" secondItem="TXV-58-dKi" secondAttribute="bottom" constant="13" id="1tR-MU-99a"/>
+                                    <constraint firstItem="RGo-PO-kH5" firstAttribute="leading" secondItem="m2U-l6-kKA" secondAttribute="leading" constant="69" id="CZk-15-Yc0"/>
+                                    <constraint firstItem="DY8-xL-ams" firstAttribute="leading" secondItem="m2U-l6-kKA" secondAttribute="leading" id="DgX-XJ-iYE"/>
+                                    <constraint firstItem="q3J-bg-1wO" firstAttribute="centerX" secondItem="RGo-PO-kH5" secondAttribute="centerX" id="GHf-gE-Opz"/>
+                                    <constraint firstItem="q3J-bg-1wO" firstAttribute="top" secondItem="TXV-58-dKi" secondAttribute="bottom" constant="49" id="OaR-w5-EIy"/>
+                                    <constraint firstAttribute="bottom" secondItem="DY8-xL-ams" secondAttribute="bottom" id="Y5A-wQ-StL"/>
+                                    <constraint firstItem="TXV-58-dKi" firstAttribute="centerX" secondItem="DY8-xL-ams" secondAttribute="centerX" id="gIj-fd-AqS"/>
+                                    <constraint firstAttribute="trailing" secondItem="DY8-xL-ams" secondAttribute="trailing" id="oZL-V0-uh9"/>
+                                    <constraint firstItem="q3J-bg-1wO" firstAttribute="bottom" secondItem="m2U-l6-kKA" secondAttribute="bottomMargin" id="tre-14-p01"/>
+                                    <constraint firstAttribute="trailing" secondItem="q3J-bg-1wO" secondAttribute="trailing" constant="19" id="uuG-1C-RoJ"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0hc-xX-bJc"/>
@@ -939,6 +963,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="meA-u4-sRB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="956.92307692307691" y="2262.0853080568718"/>
+        </scene>
+        <!--CustomVC-->
+        <scene sceneID="E9x-0w-F3Z">
+            <objects>
+                <viewController id="9s7-Kh-UmQ" customClass="CustomVC" customModule="SchedBuddy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1pQ-Of-OJi">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="h38-Yo-HsG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZcY-RO-keV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1976" y="2218"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="oGh-97-6xI">
@@ -1093,11 +1132,12 @@
                         <segue destination="B8j-S5-gqt" kind="relationship" relationship="viewControllers" id="uYo-zf-F9O"/>
                         <segue destination="ynZ-hF-zUr" kind="relationship" relationship="viewControllers" id="TgO-Oz-QeD"/>
                         <segue destination="eZ4-we-xWR" kind="relationship" relationship="viewControllers" id="pj0-Xv-RMf"/>
+                        <segue destination="xEV-9P-vgv" kind="relationship" relationship="viewControllers" id="RA2-aj-f3A"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n4I-ZV-fR3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-66" y="-9"/>
+            <point key="canvasLocation" x="418" y="-58"/>
         </scene>
         <!--Careers-->
         <scene sceneID="lPO-ed-C7B">
@@ -1115,6 +1155,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mMC-NH-QWx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="951" y="741"/>
+        </scene>
+        <!--Search-->
+        <scene sceneID="yKR-jI-sCc">
+            <objects>
+                <viewController id="Nhw-8W-Xkt" customClass="SearchVC" customModule="SchedBuddy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="C6f-sV-Wug">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="WVJ-58-v34"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Search" id="2Sh-UE-mPZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q3H-fz-3Cf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1961.5384615384614" y="1490.7582938388625"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="3Se-aA-afA">
@@ -1137,8 +1193,8 @@
                                         <rect key="frame" x="10" y="140" width="370" height="587"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <mutableString key="text">AP WORLD HISTORY MODERN (9, 10, 11, 12) This course is designed to be the equivalent of a two-semester introductory college or university world history course. According to the College Board, AP World History Modern students “investigate significant events, individuals, developments, and processes in historical periods from approximately 1200 CE to the present. Students develop and use the same skills, practices, and methods employed by historians: analyzing primary and secondary sources; making historical comparisons; utilizing reasoning about contextualization, causation, and continuity and change over time; and developing historical arguments. The course provides five themes that students explore throughout the course in order to make connections among historical developments in different times and places: interactions between humans and the environment; development and interaction of cultures; state building, expansion, and conflict; creation, expansion, and interaction of economic systems; and development &amp; transformation of social structures. Summer reading information will be distributed in the spring. Recommendation: 3.4 GPA. Exam registration will take place in September &amp; October. Standard AP fees apply.
-</mutableString>
+                                        <string key="text">AP WORLD HISTORY MODERN (9, 10, 11, 12) This course is designed to be the equivalent of a two-semester introductory college or university world history course. According to the College Board, AP World History Modern students “investigate significant events, individuals, developments, and processes in historical periods from approximately 1200 CE to the present. Students develop and use the same skills, practices, and methods employed by historians: analyzing primary and secondary sources; making historical comparisons; utilizing reasoning about contextualization, causation, and continuity and change over time; and developing historical arguments. The course provides five themes that students explore throughout the course in order to make connections among historical developments in different times and places: interactions between humans and the environment; development and interaction of cultures; state building, expansion, and conflict; creation, expansion, and interaction of economic systems; and development &amp; transformation of social structures. Summer reading information will be distributed in the spring. Recommendation: 3.4 GPA. Exam registration will take place in September &amp; October. Standard AP fees apply.
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -1163,12 +1219,32 @@
             </objects>
             <point key="canvasLocation" x="-592" y="3029"/>
         </scene>
+        <!--Search-->
+        <scene sceneID="h1n-2i-MRo">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xEV-9P-vgv" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Search" image="magnifyingglass" catalog="system" id="pnY-ia-0it"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Mqm-h9-xmz">
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Nhw-8W-Xkt" kind="relationship" relationship="rootViewController" id="KIp-JL-yQd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ou9-xc-ZkP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1962" y="741"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Sched" width="500" height="500"/>
         <image name="brief75" width="75" height="75"/>
         <image name="cap75" width="75" height="75"/>
         <image name="house75" width="75" height="75"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="softydev" width="300" height="200"/>
         <image name="text" width="563" height="563"/>
         <image name="tiger" width="400" height="400"/>
